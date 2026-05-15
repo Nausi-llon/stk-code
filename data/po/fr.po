@@ -34,6 +34,7 @@
 # Sylvain St-Amand, 2019
 # Sylvain St-Amand, 2018
 # 51251df01484cc547f4d59bd93cd7512, 2016-2018
+# Nausill_on <nausill_on@proton.me>, 2026
 msgid ""
 msgstr ""
 "Project-Id-Version: SuperTuxKart\n"
@@ -213,7 +214,7 @@ msgstr "Désinstaller"
 
 #. I18N: ./data/gui/dialogs/android/init_android.stkgui
 msgid "Select a type of control that you prefer"
-msgstr "Sélectionne un type de contrôleur que tu préfères"
+msgstr "Sélectionne le type de contrôleur que tu préfères"
 
 #. I18N: ./data/gui/dialogs/android/init_android.stkgui
 #. I18N: Control type
@@ -1563,7 +1564,7 @@ msgid ""
 "player who hits others the most will win in a given hit or time limit. In "
 "Capture The Flag, your team needs to bring the flag of the other team to "
 "your own flag base, as long as your flag is not captured by the other team."
-msgstr "Il y a trois types de modes de bataille : Dans Bataille en 3 coups, vous aurez besoin de toucher les autres avec des armes avant qu'ils ne perdent toutes leurs vies. Dans Chacun pour soi, le joueur qui touche les autres le plus gagnera suivant un certain objectif de coups ou dans le temps imparti. Dans Capture le drapeau, votre équipe à besoin de ramener le drapeau de l'autre équipe à votre propre base, tant que votre drapeau n'est pas capturé par l'autre équipe."
+msgstr "Il y a trois types de modes de bataille : Dans Bataille en 3 coups, vous aurez besoin de toucher les autres avec des armes avant qu'ils ne perdent toutes leurs vies. Dans Chacun pour soi, le joueur qui touche les autres le plus gagnera suivant un certain objectif de coups ou dans le temps imparti. Dans Capture le drapeau, votre équipe a besoin de ramener le drapeau de l'autre équipe à votre propre base, tant que votre drapeau n'est pas capturé par l'autre équipe."
 
 #. I18N: ./data/gui/screens/help/help2.stkgui
 #. I18N: In the help menu
@@ -1765,7 +1766,7 @@ msgid ""
 "options). Then, you can either create your own server with custom options, "
 "or search among a list of existing servers to join. Some of them are "
 "recommended servers with optionally ranked races."
-msgstr "D'abord, choisissez l'icône \"En ligne\" dans le menu principal. Choisissez le réseau local, ou le réseau global (nécessite qu'Internet soit activé dans les options). Puis, vous pouvez alors créer votre propre serveur avec des options personnalisées, ou chercher parmi une liste de serveurs à rejoindre. Certains d'entre eux sont des serveurs sûr, pour certains avec des courses classées."
+msgstr "D'abord, choisissez l'icône \"En ligne\" dans le menu principal. Choisissez le réseau local, ou le réseau global (nécessite qu'Internet soit activé dans les options). Puis, vous pouvez alors créer votre propre serveur avec des options personnalisées, ou chercher parmi une liste de serveurs à rejoindre. Certains d'entre eux sont des serveurs sûrs, pour certains avec des courses classées."
 
 #. I18N: ./data/gui/screens/help/help7.stkgui
 #. I18N: In the help menu
@@ -1800,7 +1801,7 @@ msgid ""
 "keyboard to join the game, and use their input device to select their kart. "
 "The game continues when everyone selected their kart. Note that the mouse "
 "may not be used for this operation."
-msgstr "Lorsque plusieurs périphériques sont configurés, sélectionne 'Multijoueur écran divisé' sur le menu principal. Chaque joueur appuie sur la touche 'feu' de son périphérique pour rejoindre la partie et sélectionne son kart. La partie se poursuit lorsque tous le joueurs ont choisi leur kart. La souris ne peut pas être utilisée pour cette opération."
+msgstr "Lorsque plusieurs périphériques sont configurés, sélectionne 'Multijoueur écran divisé' sur le menu principal. Chaque joueur appuie sur la touche 'feu' de son périphérique pour rejoindre la partie et sélectionne son kart. La partie se poursuit lorsque tous les joueurs ont choisi leur kart. La souris ne peut pas être utilisée pour cette opération."
 
 #. I18N: ./data/gui/screens/high_score_selection.stkgui
 #. I18N: In the high score selection screen
@@ -2356,7 +2357,7 @@ msgstr "Appliquer la nouvelle résolution"
 #. I18N: ./data/gui/screens/options/options_display.stkgui
 #. I18N: In the display settings
 msgid "Splitscreen Multiplayer layout"
-msgstr "Affichage avec l'écran partagé pour jouer à plusieurs"
+msgstr "Disposition de l'écran partagé en multijoueur"
 
 #. I18N: ./data/gui/screens/options/options_general.stkgui
 #. I18N: In the general settings
@@ -2397,7 +2398,7 @@ msgstr "Activer les handicaps par joueur"
 #. I18N: For mobile version for STK, uninstall the downloaded assets
 #: src/states_screens/options/options_screen_general.cpp:79
 msgid "Uninstall full game assets"
-msgstr "Désinstalle tout les actifs de tout le jeu"
+msgstr "Désinstaller toutes les ressources complémentaires"
 
 #. I18N: ./data/gui/screens/options/options_input.stkgui
 #. I18N: In the input configuration screen
@@ -2619,7 +2620,7 @@ msgstr "N'utilisez les zippers que lorsque c'est sans danger. Les longues lignes
 msgid ""
 "Don't use multiple zippers quickly in row, instead, wait until the speed "
 "boost wears off."
-msgstr "Évite d'utiliser plusieurs zippers rapidement, attend plutôt que l'effet s'estompe avant d'en utiliser un second."
+msgstr "Évite d'utiliser plusieurs zippers rapidement, attends plutôt que l'effet s'estompe avant d'en utiliser un second."
 
 #. I18N: ./data/tips.xml
 msgid "Skidding makes you much faster, do it whenever safe."
@@ -3031,7 +3032,7 @@ msgstr "Contre-la-montre - battre l'enregistrement"
 
 #: src/challenges/challenge_data.cpp:312
 msgid "Time-Trial - nitro challenge"
-msgstr "Contre la montre - défi nitro"
+msgstr "Contre-la-montre - défi nitro"
 
 #: src/challenges/challenge_data.cpp:314
 msgid "Normal Race (single race)"
@@ -3718,7 +3719,7 @@ msgstr "Touche directionnelle gauche"
 #. I18N: name of buttons on gamepads
 #: src/input/gamepad_config.cpp:177
 msgid "DPad right"
-msgstr "Touche directionnelle droit"
+msgstr "Touche directionnelle droite"
 
 #. I18N: name of buttons on gamepads
 #: src/input/gamepad_config.cpp:181
@@ -3960,9 +3961,9 @@ msgstr "Oups, %s a marqué contre son camp !"
 #, c-format
 msgid "%i spare tire kart has been spawned!"
 msgid_plural "%i spare tire karts have been spawned!"
-msgstr[0] "%ipneu de rechange entre en jeu!"
-msgstr[1] "%ipneus de rechange entrent en jeu !"
-msgstr[2] "%ipneus de rechange entrent en jeu !"
+msgstr[0] "%i pneu de rechange entre en jeu!"
+msgstr[1] "%i pneus de rechange entrent en jeu !"
+msgstr[2] "%i pneus de rechange entrent en jeu !"
 
 #: src/modes/world.cpp:1400
 msgid "You have been eliminated!"
@@ -4155,7 +4156,7 @@ msgstr "Appuyez sur <%s> ou <%s> pour changer le joueur visé, <%s> ou <%s> pour
 #: src/network/protocols/client_lobby.cpp:1655
 #, c-format
 msgid "Successfully reported %s."
-msgstr "Rapporté avec succès%s."
+msgstr "%s a été signalé avec succès."
 
 #. I18N: Shown when there is download error for assets download
 #. in the first run
@@ -4575,7 +4576,7 @@ msgstr "Courses contre un enregistrement commencées"
 #. added to multiple different goals.
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:224
 msgid "Races finished with a ghost replay"
-msgstr "Course contre un enregistrement finies"
+msgstr "Courses contre un enregistrement finies"
 
 #. I18N: A goal for achievements. If this text is in (), it's a precision
 #. added to multiple different goals.
@@ -4618,7 +4619,7 @@ msgstr "Bonus utilisés"
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:254
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:262
 msgid " (1 race)"
-msgstr "(1 course)"
+msgstr " (1 course)"
 
 #. I18N: A goal for achievements. If this text is in (), it's a precision
 #. added to multiple different goals.
@@ -4690,7 +4691,7 @@ msgstr "Courses commencées"
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:288
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:294
 msgid " (maximum on one official track)"
-msgstr "(maximum sur une seule course officielle)"
+msgstr " (maximum sur une seule course officielle)"
 
 #. I18N: A goal for achievements. If this text is in (), it's a precision
 #. added to multiple different goals.
@@ -4739,14 +4740,14 @@ msgstr "Courses avec au moins deux fois plus de tours que la valeur par défaut"
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:288
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:313
 msgid "Egg hunts started"
-msgstr "Chasse aux œufs commencées"
+msgstr "Chasses aux œufs commencées"
 
 #. I18N: A goal for achievements. If this text is in (), it's a precision
 #. added to multiple different goals.
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:292
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:317
 msgid "Egg hunts finished"
-msgstr "Chasse aux œufs finies"
+msgstr "Chasses aux œufs finies"
 
 #. I18N: A goal for achievements. If this text is in (), it's a precision
 #. added to multiple different goals.
@@ -4761,7 +4762,7 @@ msgstr "Chasse aux œufs finies"
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:313
 #: src/states_screens/dialogs/achievement_progress_dialog.cpp:319
 msgid " (official tracks matching the goal)"
-msgstr "(courses officielles correspondant à l'objectif)"
+msgstr " (courses officielles correspondant à l'objectif)"
 
 #: src/states_screens/dialogs/add_device_dialog.cpp:48
 msgid ""
@@ -5658,7 +5659,7 @@ msgstr "La taille du nom doit être comprise entre 4 et 30 caractères !"
 
 #: src/states_screens/online/create_server_screen.cpp:320
 msgid "Incorrect characters in password!"
-msgstr "Le mot de passe contient des caractères invalides!"
+msgstr "Le mot de passe contient des caractères invalides !"
 
 #. I18N: In the networking lobby, ready button is to allow player to tell
 #. server that he is ready for next game for owner less server
@@ -5722,7 +5723,7 @@ msgstr "Veuillez attendre la fin de la partie en cours."
 #, c-format
 msgid "Game will start if there is more than %d player."
 msgid_plural "Game will start if there are more than %d players."
-msgstr[0] "La partie va commencer s'il y a plus d'%djoueur."
+msgstr[0] "La partie va commencer s'il y a plus d'%d joueur."
 msgstr[1] "La partie va commencer s'il y a plus de %d joueurs."
 msgstr[2] "La partie va commencer s'il y a plus de %d joueurs."
 
@@ -6132,7 +6133,7 @@ msgstr "En multijoueur, les joueurs peuvent sélectionner des profils\navec hand
 #. will download from stk server
 #: src/states_screens/options/options_screen_general.cpp:85
 msgid "Install full game assets"
-msgstr "Installe tout les actifs de tout le jeu"
+msgstr "Installer toutes les ressources complémentaires"
 
 #: src/states_screens/options/options_screen_general.cpp:189
 msgid "Are you sure to uninstall full game assets?"
@@ -6209,7 +6210,7 @@ msgstr "Le mode speedrun peut seulement être activé si le jeu n'a pas été fe
 #. I18N: In the video options
 #: src/states_screens/options/options_screen_video.cpp:249
 msgid "Vertical Sync"
-msgstr "Syncronisation verticale"
+msgstr "Synchronisation verticale"
 
 #. I18N: in graphical options. The \n is a newline character, place it where
 #. appropriate, two can be used if required.
@@ -6336,7 +6337,7 @@ msgstr "Impossible de supprimer le seul joueur."
 #: src/states_screens/options/user_screen.cpp:654
 #, c-format
 msgid "Do you really want to delete player '%s'?"
-msgstr "Voulez-vous vraiment supprimer le joueur '%s ' ?"
+msgstr "Voulez-vous vraiment supprimer le joueur '%s' ?"
 
 #. I18N: as in "ready, set, go", shown at the beginning of the race
 #: src/states_screens/race_gui_base.cpp:73
@@ -6374,7 +6375,7 @@ msgstr "En attente du serveur"
 #: src/states_screens/race_gui_base.cpp:646
 #, c-format
 msgid "\"%s\""
-msgstr "«%s»"
+msgstr "« %s »"
 
 #. I18N: string used to show the author of the music. (e.g. "Sunny Song" by
 #. "John Doe")
